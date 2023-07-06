@@ -51,7 +51,7 @@ var c;
       <Box h={"100vh"} display={"flex"} flexDirection={["column","row"]} >
         <Image src={img1} cursor={"pointer"} h={["30vh","50vh"]}  m={["auto"]} borderRadius={"20px"} border={"3px solid"} onClick={run1}></Image>
         <Image src={img2} cursor={"pointer"} h={["30vh","50vh"]}  m={"auto"} borderRadius={"20px"} border={"3px solid"} onClick={run2}></Image>
-        <Image src={img3} cursor={"pointer"} h={["30vh","50vh"]}  m={"auto"} w={["50vw","30vw"]} borderRadius={"20px"} border={"3px solid"} onClick={run3}></Image>
+        <Image src={img3} cursor={"pointer"} h={["30vh","50vh"]}  m={"auto"} w={["58vw","30vw"]} borderRadius={"20px"} border={"3px solid"} onClick={run3}></Image>
     </Box>
     </>
   )
