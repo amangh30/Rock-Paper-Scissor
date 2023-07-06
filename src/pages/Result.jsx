@@ -17,7 +17,7 @@ const Result=({response})=> {
   var result;
   var paper = <Image src={img2} cursor={"pointer"} h={["30vh","50vh"]}  m={"auto"} borderRadius={"20px"} border={"3px solid"}></Image>
   var rock = <Image src={img1} h={["30vh","50vh"]}  m={["auto"]} borderRadius={"20px"} border={"3px solid"}></Image>
-  var scissor = <Image src={img3} h={["30vh","50vh"]}  m={"auto"} w={["50vw","30vw"]} borderRadius={"20px"} border={"3px solid"} ></Image>
+  var scissor = <Image src={img3} h={["30vh","50vh"]}  m={"auto"} w={["58vw","30vw"]} borderRadius={"20px"} border={"3px solid"} ></Image>
   if(c==0&&b=="win")
   {
   result="You Win"
